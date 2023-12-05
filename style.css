@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100dvh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: gray;
+}
+
+.container{
+    width: 95%;
+    height: 90%;
+    border: 1px solod black;
+    background-color: skyblue;
+    margin: 25px auto;
+}
