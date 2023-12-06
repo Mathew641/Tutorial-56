@@ -97,6 +97,64 @@ console.log(` 1. && operator -> And operator return true only when all the multi
 3. ! -> not equal to operator.
 `);
 // e.g:
+let age = 18;
+let driveAge = 19;
+let domicile = "India";
+if (age>=18 && domicile === "India"){
+    console.log("Ok, you are eligible for driving licence");
+}
+else{
+    console.log("No, you are not eligible for applying for the license.");
+}
+
+console.log("\n");
+let timeSpent = "Study";
+let moneySpent = "Air jordan sneakers";
+if (timeSpent ===  "party" || moneySpent === "Air jordan sneakers"){
+    console.log("Sooner or later you will be doomed");
+}
+else{
+    console.log("You will not get doomed ever");
+}
+
+
+console.log("\n");
+let dine = "Salad";
+if (dine !== "Salad"){
+    console.log("You will get fat soon.");
+}
+else{
+    console.log("You looks so dynamic man");
+}
+
+console.log("\n");
+
+// if, else if, else ladder
+let ageBracket = 31;
+if(ageBracket>=18 && ageBracket<=25){
+    console.log("Explore the world around you, don't be so workholic");
+}
+else if(age<18){
+    console.log("focus on your studies and physical activity");
+}
+else if(ageBracket>25 && ageBracket<=30){
+    console.log("Be little serious and start learning some skills.");
+}
+else if(ageBracket>30 && ageBracket<=35){
+    console.log("Improved the skills you have and be ready for a change");
+}
+else{
+    console.log("No need to get panic, there is never nothing get too late, you can restart now");
+}
+
+console.log("\n");
+
+//ternary operator
+let place = "Serbia";
+place == "tropical"? console.log("Packed some shorts"): console.log("Packed some woolen");
+
+let worldCup = "India";
+worldCup = "India"? console.log("Celebrate"): console.log("Go back Home, no party at all");
 
 
 
